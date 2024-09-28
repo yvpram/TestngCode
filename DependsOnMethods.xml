@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+<test name="Test1">
+	<groups>
+	<run>
+	<include name="sanaty"/>
+	
+	
+	</run>
+	</groups>
+		<classes>
+			<class name="fileReadTest.DependsOnMethods" />
+			<methods>
+				
+
+				<include name="delateUser" />
+		
+			</methods>
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->

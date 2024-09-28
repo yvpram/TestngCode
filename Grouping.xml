@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+<!-- we no include methods and we wright a new tag for groups -->
+	<test name="Test1">
+	<groups>
+	<run>
+	<exclude name="sanaty"/>
+	<include name="function"/>
+	</run>
+	</groups>
+		<classes>
+			<class name="fileReadTest.Groups" />
+			<!-- <methods>
+				<include name="delateUser" />
+				<include name="updateUser" />
+				<include name="getUser" />
+				<include name="addUser" />
+				
+			</methods>-->
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->

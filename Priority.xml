@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+	<test name="Test1">
+		<classes>
+			<class name="fileReadTest.PriorityRestAPI" />
+		</classes>
+	</test> <!-- Test -->
+	<!-- <test name="Test2">
+		<classes>
+			<class name="fileReadTest.PriorityRestAPI" />
+			<methods>
+			<include name="delateUser" />
+			<include name="updateUser" />
+			<include name="getUser" />
+			<include name="addUser" />
+			</methods>
+		</classes>
+	</test>  Test -->
+	
+</suite> <!-- Suite -->

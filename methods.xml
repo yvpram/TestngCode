@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+<!--it run only prefer or include  methods inside the class-->
+	<test name="Test">
+		<classes>
+			<class name="fileReadTest.filesTest" />
+			<methods>
+				<include name="readFilestext" />
+				<include name="readFilesproperties" />
+			</methods>
+			<class name="fileReadTest.TestMethods" />
+			<methods>
+				<include name="text2" />
+			</methods>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+<!-- test tag is used for load classes and methods, in side the suite age we pass several test tag but we name deferenc -->
+	<test name="Test1">
+		<classes>
+			<class name="fileReadTest.filesTest" />
+			<methods>
+				<include name="readFilestext" />
+				<include name="readFilesproperties" />
+			</methods>
+			<class name="fileReadTest.TestMethods" />
+			<methods>
+				<include name="text1" />
+			</methods>
+		</classes>
+	</test> <!-- Test -->
+	<test name="Test2">
+		<classes>
+			<class name="fileReadTest.filesTest" />
+			<methods>
+				<include name="WriteFilesproperties" />
+				<include name="WriteFilesExceal" />
+			</methods>
+			<class name="fileReadTest.TestMethods" />
+			<methods>
+				<include name="text2" />
+			</methods>
+		</classes>
+	</test> <!-- Test -->
+	<test name="Test">
+		<classes>
+			<class name="fileReadTest.filesTest" />
+			<methods>
+				<include name="readFilestext" />
+				<include name="readFilesproperties" />
+			</methods>
+			<class name="fileReadTest.TestMethods" />
+			<methods>
+				<include name="text1" />
+				<include name="text2" />
+			</methods>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

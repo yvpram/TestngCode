@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+
+	<test name="Test1">
+		<classes>
+			<class name="fileReadTest.Exclude_Enabled" />
+			<methods>
+				<include name="delateUser" />
+				<include name="updateUser" />
+				<exclude name="getUser" />
+				<include name="addUser" />
+				<!-- exclude or enabled = false -->
+			</methods>
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->

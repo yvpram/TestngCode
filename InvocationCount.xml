@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+<!-- While importing the TestNg methods class like @before, @ After the that class call inside .xml  we get those methods-->
+	<test name="Test1">
+		<classes>
+			<class name="fileReadTest.InvocationCountRestAPI" />
+		</classes>
+	</test> <!-- Test -->
+	
+</suite> <!-- Suite -->
