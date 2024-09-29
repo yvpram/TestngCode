@@ -24,7 +24,7 @@ class grandChildren extends chaild{
 		int carCount=1;
 		System.out.println("carCount "+carCount);
 	}
-	@Override
+
 	public void cAssets() {
 		int houseCount=6;
 		System.out.println("houseCount "+houseCount);
