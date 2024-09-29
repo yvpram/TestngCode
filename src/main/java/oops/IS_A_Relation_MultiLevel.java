@@ -19,12 +19,12 @@ class chaild extends parent1{
 	}
 }
 class grandChildren extends chaild{
-
+	@Override
 	public void pAssets() {
 		int carCount=1;
 		System.out.println("carCount "+carCount);
 	}
-	
+	@Override
 	public void cAssets() {
 		int houseCount=6;
 		System.out.println("houseCount "+houseCount);
