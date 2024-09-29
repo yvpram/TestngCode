@@ -16,7 +16,6 @@ class chaild1 extends parent2{
 		int c1car=2;
 		System.out.println("c1car "+c1car);
 	}
-	
 }
 class chaild2  extends parent2{
 	@Override
