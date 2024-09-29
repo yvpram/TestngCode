@@ -31,10 +31,7 @@ public class IS_A_Relation_SingleLevel {
 		che.pAssets1();
 		parent par= new children();// children class is override all methods from parent class
 		par.pAssets1();
-		par.pAssets();
-		//par.Assets1(); it is not possible because Assets1() not present in parent class 
-		
-		
+		par.pAssets(); //par.Assets1(); it is not possible because Assets1() not present in parent class 
 	}
 
 }
